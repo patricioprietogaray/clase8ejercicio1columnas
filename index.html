@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap CSS x internet -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous"> -->
+
+    <!-- bootstrap CSS de manera local -->
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <!-- agregar a bootstrap estilos propios desde estar despues de del CSS de Bottstrap -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./bootstrap/bootstrap-5.1.3-dist/css/bootstrap.css"> -->
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="">
+        <p>sin clase</p>
+        <h1>h1 Bootstrap heading (2.5rem = 40px)</h1>
+        <h2>h2 Bootstrap heading (2rem = 32px)</h2>
+        <h3>h3 Bootstrap heading (1.75rem = 28px)</h3>
+        <h4>h4 Bootstrap heading (1.5rem = 24px)</h4>
+        <h5>h5 Bootstrap heading (1.25rem = 20px)</h5>
+        <h6>h6 Bootstrap heading (1rem = 16px)</h6>
+    </div>
+    <br><br>
+    <p>con clase container</p>
+    <div class="container">
+        <h1>h1 Bootstrap heading (2.5rem = 40px)</h1>
+        <h2>h2 Bootstrap heading (2rem = 32px)</h2>
+        <h3>h3 Bootstrap heading (1.75rem = 28px)</h3>
+        <h4>h4 Bootstrap heading (1.5rem = 24px)</h4>
+        <h5>h5 Bootstrap heading (1.25rem = 20px)</h5>
+        <h6>h6 Bootstrap heading (1rem = 16px)</h6>
+    </div>
+    <br><br>
+    <p class="">Aquí va el contenido en un container fluid con clase lead.</p>
+    <p class="lead">Aquí va el contenido en un container fluid con clase lead.</p>
+
+    <h1>Título principal</h1>
+    <div class="">
+        <div class="">
+            <p>Aqui vá el contenido</p>
+            <p>Aqui vá el contenido</p>
+        </div>
+    </div>
+
+    <header class="color4" >
+        <div class="container row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1>Header <small>(12 columnas)</small></h1>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <section class="row">
+            <article class="color3 col-xs-12 col-sm-8 col-md-9 col-lg-9">
+                <h3>Article</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dicta facilis omnis fuga 
+                    fugit? Facilis et velit incidunt voluptas excepturi facere ducimus nulla! Quod laboriosam 
+                    amet corporis illo ut accusantium?
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dicta facilis omnis fuga 
+                    fugit? Facilis et velit incidunt voluptas excepturi facere ducimus nulla! Quod laboriosam 
+                    amet corporis illo ut accusantium?
+                </p>
+            </article>
+            <aside class="color4 col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                <h3>Aside</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dicta facilis omnis fuga 
+                    fugit? Facilis et velit incidunt voluptas excepturi facere ducimus nulla! Quod laboriosam 
+                    amet corporis illo ut accusantium?
+                </p>
+            </aside>
+        </section>
+    </div>
+    <div class="row">
+        <div class="color1 col-xs-12 col-sm-6 col-md-3">
+            <h3>Artículo (3 columnas)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dicta facilis omnis fuga 
+                fugit? Facilis et velit incidunt voluptas excepturi facere ducimus nulla! Quod laboriosam 
+                amet corporis illo ut accusantium?
+            </p>
+        </div>
+        <div class="color2 col-xs-12 col-sm-6 col-md-3">
+            <h3>Artículo (3 columnas)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dicta facilis omnis fuga 
+                fugit? Facilis et velit incidunt voluptas excepturi facere ducimus nulla! Quod laboriosam 
+                amet corporis illo ut accusantium?
+            </p>
+        </div>
+        <div class="color1 col-xs-12 col-sm-6 col-md-3">
+            <h3>Artículo (3 columnas)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dicta facilis omnis fuga 
+                fugit? Facilis et velit incidunt voluptas excepturi facere ducimus nulla! Quod laboriosam 
+                amet corporis illo ut accusantium?
+            </p>
+        </div>
+        <div class="color2 col-xs-12 col-sm-6 col-md-3">
+            <h3>Artículo (3 columnas)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dicta facilis omnis fuga 
+                fugit? Facilis et velit incidunt voluptas excepturi facere ducimus nulla! Quod laboriosam 
+                amet corporis illo ut accusantium?
+            </p>
+        </div>
+    </div>
+    <footer class="color1">
+        <div class="container row">
+            <h1>Footer <small>(12 columas)</small></h1>
+
+        </div>
+    </footer>
+    <!-- bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" 
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" 
+        crossorigin="anonymous">
+    </script>
+    
+
+    <!-- PANTALLAS
+    Pantalla                Dimensiones         Prefijo de la clase     Ancho del contenido
+    Tamaño extra pequeño    < 576 px            .col-xs-                Ninguno (automático)
+    Tamaño pequeño          >= 576 px           .col-sm-                540 px
+    Tamaño medio            >= 768 px           .col-md-                540 px
+    Tamaño grande           >= 992 px           .col-lg-                540 px
+    Tamaño extra grande     >= 1200 px          .col-xl-                1140 px
+    
+    -->
+</body>
+</html>
